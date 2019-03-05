@@ -6,9 +6,7 @@ Draw shapes and have the marker follow the outline (roughly) - which in turn con
 
 
 In use:
-![](Images/img01.png = 400x400)
-
-<img src="Images/img01.png" width="200" height="400" />
+<img src="Images/img01.png" width="200"/>
 
 Class relationship diagram:
-![](Images/img02.png | width = 400)
+<img src="Images/img02.png" width="200"/>
