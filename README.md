@@ -6,7 +6,7 @@ Draw shapes and have the marker follow the outline (roughly) - which in turn con
 
 
 In use:\
-<img src="Images/img01.png" width="200"/>\
+<img src="Images/img01.png" width="400"/>
 
 Class relationship diagram:\
-<img src="Images/img02.png" width="200"/>
+<img src="Images/img02.png" width="600"/>
