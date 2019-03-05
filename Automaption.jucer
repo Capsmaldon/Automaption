@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="oOMNzl" name="Automaption" projectType="guiapp" jucerVersion="5.4.0">
+  <MAINGROUP id="pvWMkj" name="Automaption">
+    <GROUP id="{C6D7A8AC-D29C-9132-849B-569B5232F54A}" name="Source">
+      <GROUP id="{96E5588E-7175-5CF6-F92D-3CFFACBF604E}" name="Utility">
+        <FILE id="vCLdAF" name="Vector2D.cpp" compile="1" resource="0" file="Source/Vector2D.cpp"/>
+        <FILE id="RH4Eyp" name="Vector2D.hpp" compile="0" resource="0" file="Source/Vector2D.hpp"/>
+      </GROUP>
+      <GROUP id="{014B0556-F409-0465-71C2-23FBCCAFD5E8}" name="Message">
+        <FILE id="XWSEaI" name="AutomationAtlas.cpp" compile="1" resource="0"
+              file="Source/AutomationAtlas.cpp"/>
+        <FILE id="Qj79Vy" name="AutomationAtlas.hpp" compile="0" resource="0"
+              file="Source/AutomationAtlas.hpp"/>
+        <FILE id="a3FLvm" name="AutomationMap.cpp" compile="1" resource="0"
+              file="Source/AutomationMap.cpp"/>
+        <FILE id="fS7oRq" name="AutomationMap.hpp" compile="0" resource="0"
+              file="Source/AutomationMap.hpp"/>
+        <FILE id="WH9FGA" name="AutomationMapContainer.cpp" compile="1" resource="0"
+              file="Source/AutomationMapContainer.cpp"/>
+        <FILE id="hxTcBk" name="AutomationMapContainer.hpp" compile="0" resource="0"
+              file="Source/AutomationMapContainer.hpp"/>
+        <FILE id="fudaew" name="MainControls.cpp" compile="1" resource="0"
+              file="Source/MainControls.cpp"/>
+        <FILE id="xRjB4V" name="MainControls.hpp" compile="0" resource="0"
+              file="Source/MainControls.hpp"/>
+        <FILE id="kdkqF6" name="MidiInSelector.cpp" compile="1" resource="0"
+              file="Source/MidiInSelector.cpp"/>
+        <FILE id="F8sDTZ" name="MidiInSelector.hpp" compile="0" resource="0"
+              file="Source/MidiInSelector.hpp"/>
+        <FILE id="EpWNJZ" name="ParameterHandler.cpp" compile="1" resource="0"
+              file="Source/ParameterHandler.cpp"/>
+        <FILE id="xejtG8" name="ParameterHandler.hpp" compile="0" resource="0"
+              file="Source/ParameterHandler.hpp"/>
+        <FILE id="mjDHjU" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+        <FILE id="Srg7BL" name="MainComponent.cpp" compile="1" resource="0"
+              file="Source/MainComponent.cpp"/>
+      </GROUP>
+      <GROUP id="{A8F193FD-34EC-3131-C53D-BF805F6916CD}" name="Midi">
+        <FILE id="wMGRQt" name="MidiEngine.cpp" compile="1" resource="0" file="Source/MidiEngine.cpp"/>
+        <FILE id="CGhQzZ" name="MidiEngine.hpp" compile="0" resource="0" file="Source/MidiEngine.hpp"/>
+      </GROUP>
+      <GROUP id="{2B3E899D-29A9-2B3C-86FD-61F78081D0DF}" name="Audio">
+        <FILE id="VAVGeP" name="AudioEngine.cpp" compile="1" resource="0" file="Source/AudioEngine.cpp"/>
+        <FILE id="dkkoKf" name="AudioEngine.hpp" compile="0" resource="0" file="Source/AudioEngine.hpp"/>
+        <FILE id="wKrZkL" name="CSynth.cpp" compile="1" resource="0" file="Source/CSynth.cpp"/>
+        <FILE id="IXpYEu" name="CSynth.hpp" compile="0" resource="0" file="Source/CSynth.hpp"/>
+        <FILE id="IhorYE" name="EffectsModules.cpp" compile="1" resource="0"
+              file="Source/EffectsModules.cpp"/>
+        <FILE id="Q0fpiw" name="EffectsModules.hpp" compile="0" resource="0"
+              file="Source/EffectsModules.hpp"/>
+        <FILE id="wDIaJB" name="WavetablePlayer.cpp" compile="1" resource="0"
+              file="Source/WavetablePlayer.cpp"/>
+        <FILE id="b75VqX" name="WavetablePlayer.hpp" compile="0" resource="0"
+              file="Source/WavetablePlayer.hpp"/>
+      </GROUP>
+      <FILE id="Q6bDe6" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../../Archives/Notes/SDA/Prac 5/Juce/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../../Archives/Notes/SDA/Prac 5/Juce/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../../Archives/Notes/SDA/Prac 5/Juce/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../../Archives/Notes/SDA/Prac 5/Juce/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../../Archives/Notes/SDA/Prac 5/Juce/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../../../Archives/Notes/SDA/Prac 5/Juce/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../../../../Archives/Notes/SDA/Prac 5/Juce/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../../Archives/Notes/SDA/Prac 5/Juce/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../../Archives/Notes/SDA/Prac 5/Juce/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../../Archives/Notes/SDA/Prac 5/Juce/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../../Archives/Notes/SDA/Prac 5/Juce/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../../Archives/Notes/SDA/Prac 5/Juce/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../../../../Archives/Notes/SDA/Prac 5/Juce/modules"/>
+        <MODULEPATH id="juce_video" path="../../../../../../Archives/Notes/SDA/Prac 5/Juce/modules"/>
+        <MODULEPATH id="juce_dsp" path="../Prac 5/Juce/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <OSX/>
+  </LIVE_SETTINGS>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+</JUCERPROJECT>
