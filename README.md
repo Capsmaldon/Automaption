@@ -3,3 +3,4 @@
 A great and amazing standalone synthesiser for whacky parameter control
 
 ![](Images/img01.png)
+![](Images/img02.png)
